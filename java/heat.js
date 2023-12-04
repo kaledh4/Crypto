@@ -11,7 +11,7 @@ fetch('https://macrovar.com/united-states/us-dollar-index-dxy/')
    
 const options = {
     headers: {
-      'x-access-token': 'cfa4f1ddd78a8987e066d7854d1fc676ea5d45f8f9338ba75df6752e6e3d15e5',
+      'x-access-token': '$heat',
     },
 };
 
