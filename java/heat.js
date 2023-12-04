@@ -11,7 +11,7 @@ fetch('https://macrovar.com/united-states/us-dollar-index-dxy/')
    
 const options = {
     headers: {
-      'x-access-token': '$heat',
+      'x-access-token': '$HEAT',
     },
 };
 
