@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+th, td {
+    border: 1px solid  #333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #ffffff;
+    
+}
+
+td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+    text-align: center;
+    font-weight: bold;
+    background-color: #1e1e1e;
+}
+
+td:nth-child(5) {
+    color: white;
+    
+}
+
+.cryptoNews {
+    background-color: #1e1e1e; /* Lighter color for the background */
+    color: #ffffff;
+    text-align: left; /* Center the text */
+    padding: 15px; /* Add padding for better aesthetics */
+}
+
+.cryptoNews td {
+    padding: 10px;
+}
+
+/* Additional styles for centering the page content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 35%;
+}
+
+/* Additional styles for the page header */
+h1 {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: px; /* Add margin for better spacing */
+}
+

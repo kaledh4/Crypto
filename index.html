@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Risk</title>
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="manifest" href="java/manifest.json"> <!-- Link to the manifest file -->
+
+</head>
+
+<body>
+    
+    <table id="cryptoTable">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Price</th>
+                <th>Risk</th>
+                <th>Multiple</th>
+            </tr>
+        </thead>
+        <tbody id="cryptoTableBody"></tbody>
+    </table>
+
+    <table id="cryptoTable2">
+        <thead>
+            <tr>
+                <th ><img src="imges/dollar.png" alt="dollar"></th>
+                <th id="dxyPrice"></th>
+                <th ><img src="imges/fire.png" alt="heat"></th>
+                <th id="heat"></th>
+            </tr>
+        </thead>
+    </table>
+
+    <div>
+        <table id="cryptoNews"></table>
+    </div>
+
+    <script src="java/coin.js">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js') // Register the service worker
+                .then(registration => console.log('Service Worker registered with scope:', registration.scope))
+                .catch(error => console.error('Service Worker registration failed:', error));
+        }
+    </script>
+    <script src="java/script.js"></script>
+    <script src="java/heat.js"></script>
+</body>
+
+</html>
