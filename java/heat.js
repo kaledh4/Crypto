@@ -28,7 +28,6 @@ function getInterestRateData() {
       error: function ajaxError(jqXHR) {
         // Handle the error
         console.error("Error: ", jqXHR.responseText);
-        alert("Failed to get the interest rate data.");
       }
     });
   }
