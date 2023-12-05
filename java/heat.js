@@ -13,7 +13,7 @@ fetch('https://www.moneycontrol.com/markets/currencies/technical-analysis/dollar
 function getInterestRateData() {
     // The URL of the API
     var url = "https://api.api-ninjas.com/v1/interestrate";
-    var apiKey = "$api-ninjas";
+    var apiKey = "$APININJAS";
   
     // The AJAX request to get the JSON data
     $.ajax({
