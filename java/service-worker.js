@@ -6,11 +6,13 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 '/',
                 '/index.html',
+                '/imges',
+                '/java',
                 '/script.js',
                 '/styles.css',
                 '/manifest.json',
                 '/coin.js',
-                '/lion.png' // Include all the files your app needs
+                'Crypto/imges/bitcoin.png' // Include all the files your app needs
             ]);
         })
     );
