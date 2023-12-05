@@ -80,10 +80,11 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/script.js',
-                '/styles.css',
-                '/java/',
-                '/imges/',
+                '/java/script.js',
+                '/java/heat.js',
+                '/style/styles.css',
+                '/java/manifest.json',
+                '/imges',
                 'Crypto/imges/bitcoin.png' // Include all the files your app needs
             ]);
         })
