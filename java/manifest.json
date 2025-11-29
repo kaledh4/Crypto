@@ -1,0 +1,16 @@
+{
+    "name": "Portfolio Risk",
+    "short_name": "Risk",
+    "description": "Your app description",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "icons": [
+        {
+            "src": "images/bitcoin.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ]
+}
